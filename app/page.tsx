@@ -30,7 +30,7 @@ export default function HomePage() {
           </h1>
           <p className="text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed text-pretty">
             Estamos preparando cada movimento com estrategia. Em breve, voce
-            conhecera todas as nossas solucoes para transformar a tecnologia do
+            conhecera todas as nossas soluçoes para transformar a tecnologia do
             seu negocio.
           </p>
         </div>
