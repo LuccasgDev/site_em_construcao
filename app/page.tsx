@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ChessGrid } from "@/components/chess-grid";
 import { StatusBadge } from "@/components/status-badge";
 import { FeatureCards } from "@/components/feature-cards";
@@ -12,13 +11,12 @@ export default function HomePage() {
       <div className="relative z-10 flex flex-col items-center gap-10 px-6 py-16 max-w-3xl mx-auto text-center">
         {/* Logo */}
         <div className="relative w-48 h-48 md:w-56 md:h-56">
-          <Image
-            src="/images/Logo_CheckmatTech-removebg-preview.png"
-            alt="Checkmate Tech - Torre de xadrez com destaque laranja"
-            fill
-            className="object-contain"
-            priority
-          />
+        <img
+  src="/images/Logo_CheckmatTech-removebg-preview.png"
+  alt="Checkmate Tech - Torre de xadrez com destaque laranja"
+  className="w-48 h-48 md:w-56 md:h-56 object-contain"
+/>
+
         </div>
 
         {/* Status Badge */}
