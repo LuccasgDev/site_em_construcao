@@ -13,7 +13,7 @@ export default function HomePage() {
         {/* Logo */}
         <div className="relative w-48 h-48 md:w-56 md:h-56">
           <Image
-            src="/images/logo-checkmattech-removebg-preview.png"
+            src="/images/Logo_CheckmatTech-removebg-preview.png"
             alt="Checkmate Tech - Torre de xadrez com destaque laranja"
             fill
             className="object-contain"
